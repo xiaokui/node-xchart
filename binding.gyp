@@ -9,9 +9,9 @@
         ]
     },
     {
-        'target_name': 'test',
+        'target_name': 'xchart',
         'sources': [
-            'src/test.cc', 
+            'src/xchart.cc', 
             ],
         'conditions': [
         ['OS=="linux"', {
