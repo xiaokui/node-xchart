@@ -5,9 +5,16 @@
     {
         "target_name": "hello",
         "sources": [ 
-        "src/hello.cc" ,
-        "src/test.cc" ,
+        "src/hello.cc"
+        ]
+    },
+    {
+        "target_name": "test",
+        "sources": [ 
+        "src/test.cc"
         ]
     }
     ]
+
+
 }
