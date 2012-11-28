@@ -4,8 +4,18 @@
     'targets': [
     {
         'target_name': 'hello',
+        'sources': [ 'src/hello.cc' ]
+    },
+    {
+        'target_name': 'addon',
+        'sources': [ 'src/addon.cc' ]
+    },
+    {
+        'target_name': 'addon1',
         'sources': [ 
-        'src/hello.cc'
+            'src/addon1.cc',
+            'src/myobject.cc',
+            'src/myobject.h',
         ]
     },
     {

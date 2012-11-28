@@ -11,7 +11,9 @@ Handle<Value> Method(const Arguments& args) {
 }
 
 void init(Handle<Object> target) {
-    NODE_SET_METHOD(target, "hello", Method);
+    target->Set(String::NewSymbol("hello"),
+            FunctionTemplate::New(Method)->GetFunction());
+    //NODE_SET_METHOD(target, "hello", Method);
 
 }
 
